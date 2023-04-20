@@ -42,10 +42,14 @@
                 return (
                     <form onSubmit={this.handleSubmit}>
                         <label>
-                            Enter the Text:
-                           
+                            <b>Enter the Text:</b>
+                            
+                            <br></br>
+                            <br></br>
+                            
                             <textarea value={this.state.value} onChange={this.handleTxtareaChange} />                        </label>
-                        <input type="submit" value="Submit" />
+                            <br></br>
+                            <label>Output </label>
                         <p> {this.state.value}</p>
                     </form>
                 );
